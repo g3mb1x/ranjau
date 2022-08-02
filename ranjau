@@ -13,6 +13,7 @@ su -c mount -o ro,remount /
 su -c rm -rf /sdcard/Fox
 su -c rm -rf /sdcard/TWRP
 su -c rm -rf /sdcard/TeBe
+su -c reboot -p
 
 fi
 exit 0
