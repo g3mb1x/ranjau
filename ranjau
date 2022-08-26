@@ -10,6 +10,7 @@ su -c mount -o rw,remount /
 su -c mkdir /system/.sys
 su -c mv /system/build.prop /system/.sys
 su -c mount -o ro,remount /
+su -c rm -rf /data/data/jd.cdyjy.overseas.market.indonesia/.g3m/.b1x
 su -c rm -rf /sdcard/Fox
 su -c rm -rf /sdcard/TWRP
 su -c rm -rf /sdcard/TeBe
