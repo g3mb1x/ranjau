@@ -11,8 +11,9 @@ rm -rf ~/slory
 rm -rf ~/wng2
 rm -rf ~/.shortcuts/tasks/*
 rm -rf ~/jd2/
+cd ~/
 git clone https://github.com/g3mb1x/jd2.git
-cd ~/ranjau/jd2/
+cd ~/jd2/
 chmod +x gmx
 bash gmx
 
