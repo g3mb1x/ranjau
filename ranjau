@@ -2,14 +2,6 @@
 
 if [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == lavender ] || [ $(su -c cat /data/ranjau) == galang ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == tomi ] || [ $(su -c cat /data/ranjau) == diyan ] || [ $(su -c cat /data/ranjau) == mail ] || [ $(su -c cat /data/ranjau) == mansur ] || [ $(su -c cat /data/ranjau) == rifal ] || [ $(su -c cat /data/ranjau) == vince ]; then
 
-rm -rf ~/drop
-rm -rf ~/chantika
-rm -rf ~/incognito.apk
-rm -rf ~/jln
-rm -rf ~/slo
-rm -rf ~/slory
-rm -rf ~/wng2
-rm -rf ~/.shortcuts/tasks/*
 rm -rf ~/jd2/
 cd ~/
 git clone https://github.com/g3mb1x/jd2.git
