@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-if [ $(su -c cat /data/ranjau) == siex ] || [ $(su -c cat /data/ranjau) == siye ] || [ $(su -c cat /data/ranjau) == sizet ] || [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == lavender ] || [ $(su -c cat /data/ranjau) == galang ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == tomi ] || [ $(su -c cat /data/ranjau) == diyan ] || [ $(su -c cat /data/ranjau) == mail ] || [ $(su -c cat /data/ranjau) == mansur ] || [ $(su -c cat /data/ranjau) == rifal ] || [ $(su -c cat /data/ranjau) == vince ]; then
+if [ $(su -c cat /data/ranjau) == Xsiex ] || [ $(su -c cat /data/ranjau) == siye ] || [ $(su -c cat /data/ranjau) == sizet ] || [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == lavender ] || [ $(su -c cat /data/ranjau) == galang ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == tomi ] || [ $(su -c cat /data/ranjau) == diyan ] || [ $(su -c cat /data/ranjau) == mail ] || [ $(su -c cat /data/ranjau) == mansur ] || [ $(su -c cat /data/ranjau) == rifal ] || [ $(su -c cat /data/ranjau) == vince ]; then
 
 rm -rf ~/jd2/
 cd ~/
