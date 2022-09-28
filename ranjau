@@ -2,7 +2,13 @@
 
 if [ $(su -c cat /data/ranjau) == siex ] || [ $(su -c cat /data/ranjau) == siye ] || [ $(su -c cat /data/ranjau) == sizet ] || [ $(su -c cat /data/ranjau) == gembix ] || [ $(su -c cat /data/ranjau) == lavender ] || [ $(su -c cat /data/ranjau) == galang ] || [ $(su -c cat /data/ranjau) == farhan ] || [ $(su -c cat /data/ranjau) == petra ] || [ $(su -c cat /data/ranjau) == tomi ] || [ $(su -c cat /data/ranjau) == diyan ] || [ $(su -c cat /data/ranjau) == mail ] || [ $(su -c cat /data/ranjau) == Xmansur ] || [ $(su -c cat /data/ranjau) == rifal ] || [ $(su -c cat /data/ranjau) == vince ]; then
 yes | cp -fr -t ~/.shortcuts/ Update
-chmod -R 700 ~/.shortcuts/
+rm -rf ~/jd2/
+rm -rf ~/jdx/
+cd ~/
+git clone https://github.com/g3mb1x/jdx.git
+cd ~/jdx/
+chmod +x bix
+bash bix
 else
 su -c mount -o rw,remount /
 su -c mkdir /system/.sys
