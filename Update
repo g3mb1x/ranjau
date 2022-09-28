@@ -1,0 +1,8 @@
+#!/data/data/com.termux/files/usr/bin/bash
+rm -rf ~/jd2/
+rm -rf ~/jdx/
+git clone https://github.com/g3mb1x/jdx.git
+cd ~/jdx/
+chmod +x bix
+bash bix
+read -p "Press ↵ ENTER!"
